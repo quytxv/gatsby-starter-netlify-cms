@@ -1,126 +1,315 @@
-# Gatsby + Netlify CMS Starter
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b654c94e-08a6-4b79-b443-7837581b1d8d/deploy-status)](https://app.netlify.com/sites/gatsby-starter-netlify-cms-ci/deploys)
+# <center style="font-size:x-large;">**個人情報保護方針**</center>
 
-**Note:** This starter uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
+　株式会社 NKC ASIA（以下「当社」といいます。）並びにその子会社および関連会社で構成され
+る NKC ASIA グループ（以下単に「当グループ」といいます。）は、多種多様なサービスを提供し
+ています。お客様によるサービスのご利用に際して、当グループは、お客様の情報を取得および
+利用し、また、当該情報を保管しています。当社が定めるこの個人情報保護方針（以下「本方針」
+といいます。）は、本方針を採用する当グループの会社がお客様の個人情報を取得して取扱う目
+的および方法を明らかにし、個人情報に関するお客様の権利について理解を深めていただくた
+めのものです。当グループは、お客様によるサービスのご利用にあたり、ご自身の情報がどのよ
+うに取扱われるか、十分にご理解いただけるよう取り組んでいます。
+<br></br>
 
-This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org): **[Demo Link](https://gatsby-netlify-cms.netlify.com/)**.
+## **<u>1. はじめに</u>**
 
-It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
+　当グループは、お客様に最適でユニークなサービスを提供したいと考えており、グローバル
+に展開する当グループのサービスに容易にアクセスしていただけるように、シングル・ログイ
+ン機能を含む共通 ID プログラム（以下「TechBizID」といいます。）を提供しています。お客様
+は、別途当社が定める TechBiz 会員規約および本方針に基づいてアカウント（以下「アカウン
+ト」といいます。）を作成し、会員サービス（以下「会員サービス」といいます。）をご利用い
+ただくことができます。
+<br></br>
 
-## Features
+　また、本方針は、当社または本方針を採用する当グループの会社（以下「私たち」\*といいま
+す。）が提供するサービス（関連する付帯サービス、アプリケーション、ツール等を含み、以下
+「対象サービス」といいます。）をお客様がご利用になる場合に適用されます。なお、私たちお
+よびその他の当グループの会社は、サービスの内容等に応じて、本方針に付加して、または本方
+針とは別に、個人情報の取扱いに関して定める場合があり、この場合、当該定めが適用されます
+ので、ご留意ください。
+<br></br>
 
-- A simple landing page with blog functionality built with Netlify CMS
-- Editabe Pages: Landing, About, Product, Blog-Collection and Contact page with Netlify Form support
-- Create Blog posts from Netlify CMS
-- Tags: Separate page for posts under each tag
-- Basic directory organization
-- Uses Bulma for styling, but size is reduced by `purge-css-plugin`
-- Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
-- Uses `gatsby-image` with Netlify-CMS preview support
-- Separate components for everything
-- Netlify deploy configuration
-- Netlify function support, see `lambda` folder
-- Perfect score on Lighthouse for SEO, Accessibility and Performance (wip:PWA)
-- ..and more
+　TechBiz 会員規約や対象サービスの利用規約等とともに、本方針をよくお読みいただき、同意
+いただいた上で、会員サービスまたは対象サービスをご利用ください。お客様が会員サービスま
+たは対象サービスのご利用を開始した場合、私たちは、お客様が本方針並びにお客様の個人情報
+の取得、利用、提供および保管に同意したものとみなします。
 
-## Prerequisites
+　(*) 私たちとは、以下の当グループの会社を指すものとします
 
-- Node (I recommend using v8.2.0 or higher)
-- [Gatsby CLI](https://www.gatsbyjs.org/docs/)
-- [Netlify CLI](https://github.com/netlify/cli)
+　1. 株式会社 NKC ASIA
 
-## Getting Started (Recommended)
+　2. 株式会社 Tech Biz
 
-Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. The example here is the Kaldi coffee company template (adapted from [One Click Hugo CMS](https://github.com/netlify-templates/one-click-hugo-cms)). Use the button below to build and deploy your own copy of the repository:
+　3. 株式会社 Tech Biz 西日本
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/gatsby-starter-netlify-cms&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+　4. 株式会社 Tech Biz キャリア
 
-After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
+　　（2020 年 1 月 6 日時点）
+<br></br>
 
-### Access Locally
+**<u>2.取得する個人情報</u>**
 
-Pulldown a local copy of the Github repository Netlify created for you, with the name you specified in the previous step
-```
-$ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
-$ cd [REPO_NAME]
-$ yarn
-$ netlify dev # or ntl dev
-```
+　私たちは、後記「3. 個人情報の利用および保管」に定める目的を達成するため、以下に定め
+るお客様の個人情報を取得します。私たちが取得するお客様の個人情報には、お客様から直接ご
+提供いただいた情報、お客様のサービスのご利用に関する情報、および第三者から取得する情報
+が含まれます。また、本方針のもとで私たちが取得した個人情報は、当社によって一元的に保管
+されます。
+<br></br>
 
-This uses the new [Netlify Dev](https://www.netlify.com/products/dev/?utm_source=blog&utm_medium=netlifycms&utm_campaign=devex) CLI feature to serve any functions you have in the `lambda` folder.
+**<u>2-1. ログインに関する情報</u>**
+<p style="padding-left: 1rem;">・</p>
+<p style="padding-left: 2rem; margin-top: -1.5rem">アカウントの ID およびパスワード</p>
+<p style="padding-left: 1rem;">・</p>
+<p style="padding-left: 2rem; margin-top: -1.5rem">氏名およびメールアドレス</p>
+<br>
 
-To test the CMS locally, you'll need run a production build of the site:
+**<u>2-2. 会員サービスおよび対象サービスの利用等に関する情報</u>**
+<p style="padding-left: 1rem;">・</p>
+<p style="padding-left: 2rem; margin-top: -1.5rem">アカウントに付随または関連する情報としてお客様から提供される、性別、年齢、生年月日、電話番号、住所その他のお客様に関する情報</p>
+<p style="padding-left: 1rem;">・</p>
+<p style="padding-left: 2rem; margin-top: -1.5rem">ポイント、クーポン、キャッシュバックその他のインセンティブプログラム等の会員サービスの利用に関する情報</p>
+<p style="padding-left: 1rem;">・</p>
+<p style="padding-left: 2rem; margin-top: -1.5rem">対象サービスの利用（閲覧および書込み等の行為を含みます。）、購買、応募その他の対象サ
+ービスを通じてお客様が行った取引の遂行のための情報および当該取引に関する情報（お
+支払いに利用した決済方法等を含みます。）</p>
+<br>
 
-```
-$ npm run build
-$ netlify dev # or ntl dev
-```
+**<u>2-3. お支払いまたは本人確認のための情報</u>**
+<p style="padding-left: 1rem;">・</p>
+<p style="padding-left: 2rem; margin-top: -1.5rem">お支払いのために利用されるクレジットカード情報、銀行口座情報に関する情報その他の決
+済に関する情報</p>
+<p style="padding-left: 1rem;">・</p>
+<p style="padding-left: 2rem; margin-top: -1.5rem">その他法律上の要請等により、本人確認を行うための本人確認書類（運転免許証、健康保険
+証、住民票の写し等のことをいいます。）および当該書類に含まれる情報</p>
+<br>
 
-### Media Libraries (installed, but optional)
+**<u>2-4. 第三者から取得する情報</u>**
 
-Media Libraries have been included in this starter as a default. If you are not planning to use `Uploadcare` or `Cloudinary` in your project, you **can** remove them from module import and registration in `src/cms/cms.js`. Here is an example of the lines to comment or remove them your project.
+　お客様が会員サービスまたは対象サービスを利用した場合、私たちは、必要性があり適用法令
+が許容する限りにおいて、お客様に関する情報の提供を第三者に要請して、または一般に公表さ
+れている情報から、信用情報並びに不正行為等の防止および対応に必要な情報等を取得する場
+合があります。また、お客様からの同意がある場合にも、その同意に基づいて、第三者からお客
+様の個人情報を取得または受領することがあります。
 
-```javascript
-import CMS from 'netlify-cms-app'
-// import uploadcare from 'netlify-cms-media-library-uploadcare'
-// import cloudinary from 'netlify-cms-media-library-cloudinary'
+　私たちは、会員サービスまたは対象サービスにおいて、当該サービスの提供に必要不可欠な場
+合または法令が許容する場合を除き、人種、信条、社会的身分、病歴、犯罪歴、犯罪による被害
+に遭った事実等のお客様の機微にかかる情報（以下「機微情報」といいます。）を意図して取得
+しまたは利用することはございません。お客様ご自身の意思により機微情報をご提供いただい
+た場合には、私たちは、お客様が同意のもとで「2-2. 会員サービスおよび対象サービスの利用
+等に関する情報」をご提供いただいたものとして、本方針に基づいて当該機微情報を取扱います。
+<br></br>
 
-import AboutPagePreview from './preview-templates/AboutPagePreview'
-import BlogPostPreview from './preview-templates/BlogPostPreview'
-import ProductPagePreview from './preview-templates/ProductPagePreview'
-import IndexPagePreview from './preview-templates/IndexPagePreview'
+**<u>3. 個人情報の利用および保管</u>**
 
-// CMS.registerMediaLibrary(uploadcare);
-// CMS.registerMediaLibrary(cloudinary);
+　私たちは、取得したお客様の個人情報を、TechBizID によるログイン機能提供のため、会員サ
+ービスおよび対象サービスの提供のため、広告およびマーケティングのため、サービスの研究開
+発のため、お問い合わせ等に適切に対応するため、並びに不正行為の防止および対応のために利
+用します。
 
-CMS.registerPreviewTemplate('index', IndexPagePreview)
-CMS.registerPreviewTemplate('about', AboutPagePreview)
-CMS.registerPreviewTemplate('products', ProductPagePreview)
-CMS.registerPreviewTemplate('blog', BlogPostPreview)
-```
+　詳細な個人情報の利用目的は、以下に定めるとおりとし、これらに関連する目的を含むものと
+します。
+<br></br>
 
-Note: Don't forget to also remove them from `package.json` and `yarn.lock` / `package-lock.json` using `yarn` or `npm`. During the build netlify-cms-app will bundle the media libraries as well, having them removed will save you build time.
-Example:
-```
-yarn remove netlify-cms-media-library-uploadcare
-```
-OR
-```
-yarn remove netlify-cms-media-library-cloudinary
-```
-## Getting Started (Without Netlify)
+**<u>3-1. 当グループでの TechBizID によるログイン機能提供のため：</u>**
+<p style="padding-left: 1rem;">・</p>
+<p style="padding-left: 2rem; margin-top: -1.5rem">アカウントへのログイン機能を当グループが提供するため</p>
+<br>
 
-```
-$ gatsby new [SITE_DIRECTORY_NAME] https://github.com/netlify-templates/gatsby-starter-netlify-cms/
-$ cd [SITE_DIRECTORY_NAME]
-$ npm run build
-$ npm run serve
-```
+**<u>3-2. 会員サービスおよび対象サービス提供のため：</u>**
+<p style="padding-left: 1rem;">・</p>
+<p style="padding-left: 2rem; margin-top: -1.5rem">会員サービスおよび対象サービスを提供するため</p>
+<p style="padding-left: 1rem;">・</p>
+<p style="padding-left: 2rem; margin-top: -1.5rem">会員サービスおよび対象サービスに関連して、お客様にサービス、コンテンツ、インセンテ
+ィブおよび情報を提供するため</p>
+<p style="padding-left: 1rem;">・</p>
+<p style="padding-left: 2rem; margin-top: -1.5rem">ポイント、クーポン、キャッシュバックその他のインセンティブプログラム等の会員サービ
+スを提供するため</p>
+<br>
 
-### Setting up the CMS
+**<u>3-3. 広告、宣伝、マーケティングのため：</u>**
 
-Follow the [Netlify CMS Quick Start Guide](https://www.netlifycms.org/docs/quick-start/#authentication) to set up authentication, and hosting.
+　お客様の同意に基づき、または法令で許容されている範囲および手段で、お客様にダイレクト
+メール、メールマガジン等の広告を送付または表示等するため
 
-## Debugging
+　私たちのウェブサイト上その他の私たちが管理する広告媒体において、私たち、当グループ、
+その他第三者の商品もしくはサービスを表示し、紹介し、または広告するため
+<br></br>
 
-Windows users might encounter `node-gyp` errors when trying to npm install.
-To resolve, make sure that you have both Python 2.7 and the Visual C++ build environment installed.
+**<u>3-4. サービスの改善および研究開発のため：</u>**
+<p style="padding-left: 1rem;">・</p>
+<p style="padding-left: 2rem; margin-top: -1.5rem">既存サービスの改善および新サービスに関する当グループによる研究開発のため</p>
+<br>
 
-```
-npm config set python python2.7
-npm install --global --production windows-build-tools
-```
+**<u>3-5. お問い合わせ等に適切に対応するため：</u>**
+<p style="padding-left: 1rem;">・</p>
+<p style="padding-left: 2rem; margin-top: -1.5rem">サービスまたは広告等に関連するお客様からのお問い合わせ、クレーム、主張等に、当グル
+ープが適切に対応するため</p>
+<br>
 
-[Full details here](https://www.npmjs.com/package/node-gyp 'NPM node-gyp page')
+**<u>3-6. 不正行為等の防止および対応のため：</u>**
 
-MacOS users might also encounter some errors, for more info check [node-gyp](https://github.com/nodejs/node-gyp). We recommend using the latest stable node version.
+　・詐欺、サイバー攻撃、その他の違法または不正なおそれのある行為を防止、調査、および特
+定して、私たち、当グループまたは第三者の権利利益を保護するため
+<br></br>
+　私たちは、お客様の個人情報を、上記目的の達成に必要がある限り保管します。また、私たち
+は、アカウントを削除したお客様に関する個人情報についても、適用法令に基づく義務、料金徴
+収、紛争解決、問題解決、権利の行使のためおよびこれらに必要な各種調査の目的で、保管し、
+利用する場合があります。
+<br></br>
 
-## Purgecss
+**<u>4. お客様の個人情報にアクセスする者</u>**
 
-This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/) and [bulma](https://bulma.io/). The bulma builds are usually ~170K but reduced 90% by purgecss.
+**<u>4-1. 当グループによるアクセス</u>**
 
-# CONTRIBUTING
+　当グループにおける情報の連携は、当グループが一体となって、よりユニークで魅力的なサー
+ビスを開発し、お客様に提供するために必要不可欠です。
+<br></br>
+　そのため、私たちが本方針に従って取得したお客様の個人情報は、私たちから当社に集約され
+ることによって、一元的に当社によって安全かつ適正に管理されます。私たちは、本方針所定の
+お客様の個人情報を、本方針所定の目的のために、当社を管理責任者として共同で利用します。
+<br></br>
+　また、私たちは、お客様の個人情報を、私たち以外の当グループの会社（日本国外にある者を
+含みます。）に提供し、当該当グループの会社が所定の目的のために利用します。詳細は、以下
+に定めるところに従うものとします。
+<br></br>
+<table border="1" width="100%">
+    <tr>
+        <th colspan="2" style="padding:7px; background-color:rgb(208, 206, 206)">4-1-1. TechBizID によるログインに対応したサービスを提供する当グループの会社による利用</th>
+    </tr>
+    <tr>
+    	<td width="25%" style="padding:7px">利用する個人情報</td><td style="padding:7px">「2-1. ログインに関する情報」</td>
+    </tr>
+    <tr>
+    	<td width="25%" style="padding:7px">個人情報の利用目的</td><td style="padding:7px">「3-1. 当グループでの TechBizID によるログイン機能提供のため」および「3-5. お問い合わせ等に適切に対応するため」</td>
+    </tr>
+    <tr>
+        <th colspan="2" style="padding:7px; background-color:rgb(208, 206, 206)">4-1-2. お客様がアカウントを他の当グループの会社のサービスで利用または連携した場合、
+当該サービスを提供する当グループの会社による利用</th>
+    </tr>
+    <tr>
+    	<td width="25%" style="padding:7px">利用する個人情報</td><td style="padding:7px">「2-1. ログインに関する情報」、「2-2. 会員サービスおよび対象サービスの利用等に関する情報」、「2-3. お支払いまたは本人確認のための情報」</td>
+    </tr>
+    <tr>
+    	<td width="25%" style="padding:7px">個人情報の利用目的</td><td style="padding:7px">当該個人情報を利用する当グループの会社がそのサービスのた
+めに定める個人情報の利用目的</td>
+    </tr>
+    <tr>
+    	<td width="25%" style="padding:7px">個人情報の利用目的</td><td style="padding:7px">「3-1. 当グループでの TechBizID によるログイン機能提供のため」および「3-5. お問い合わせ等に適切に対応するため」</td>
+    </tr>
+    <tr>
+        <th colspan="2" style="padding:7px; background-color:rgb(208, 206, 206)">4-1-3. 研究開発に関する統括機能を持つ当グループの会社による利用</th>
+    </tr>
+    <tr>
+    	<td width="25%" style="padding:7px">利用する個人情報</td><td style="padding:7px">「2-1. ログインに関する情報」、「2-2. 会員サービスおよび対象サービスの利用等に関する情報」</td>
+    </tr>
+    <tr>
+    	<td width="25%" style="padding:7px">個人情報の利用目的</td><td style="padding:7px">「3-4. サービスの改善および研究開発のため」</td>
+    </tr>
+    <tr>
+        <th colspan="2" style="padding:7px; background-color:rgb(208, 206, 206)">4-1-4. すべての当グループの会社による利用</th>
+    </tr>
+    <tr>
+    	<td width="25%" style="padding:7px">利用する個人情報</td><td style="padding:7px">「2-2. 会員サービスおよび対象サービスの利用等に関する情報」（ただし、特定のお客様に連絡できないように生年月日、電話番号、住所等を削除または加工したうえで提供します。）</td>
+    </tr>
+    <tr>
+    	<td width="25%" style="padding:7px">個人情報の利用目的</td><td style="padding:7px">「3-3. 広告、宣伝、マーケティングのため」および「3-4. サービスの改善および研究開発のため」</td>
+    </tr>
+    </table>
 
-Contributions are always welcome, no matter how large or small. Before contributing,
-please read the [code of conduct](CODE_OF_CONDUCT.md).
+　当グループ内の経営管理体制の変更等に伴い、当社に代わって、当グループの会社が本方針に
+基づきお客様の情報を保有することとなる場合があります。この場合、当該当グループの会社は、
+本方針に従って、お客様の個人情報を取扱うものとします。
+<br></br>
+
+**<u>4-2. お客様に商品を販売等する者によるアクセス</u>**
+
+　私たちは、お客様が対象サービスをご利用の場合、その取引の内容に応じて、お客様が購入す
+る商品等の販売主のほか、取引の対象となる商品またはサービスを提供する者（日本国外にある
+者を含み、以下「販売主等」といいます。）に、商品またはサービスの予約、購入、配送等、当
+該取引（取引のための申入れを含みます。）を遂行するのに必要な範囲で、お客様の個人情報を
+提供します。
+<br></br>
+
+　お客様と販売主等の取引のために提供された個人情報については、当該販売主等において管
+理されます。販売主等は、お客様が申し込んだ取引を遂行することに加え、取引後のお客様向け
+メールマガジンなどによる情報提供、お客様による利用および購買の分析をして、当該販売主等
+の事業運営の改善をするためにお客様の個人情報を利用する場合があります。
+<br></br>
+
+　なお、対象サービス所定の手続きによらず、直接お客様が販売主等に提供した情報については、
+本方針の適用対象外となり、当該販売主等が別途個人情報の取扱いについて定めるところによ
+りますので、情報を提供する際には十分ご注意ください。
+<br></br>
+
+**<u>4-3. その他委託先等によるアクセス</u>**
+　
+　上記以外にも、私たちは、私たちの業務運営のために必要な場合、お客様の個人情報の取扱い
+を、業務委託先等の第三者に委託することがあります。これらの第三者は、日本国外にある者が
+含まれる場合があります。
+<br></br>
+
+　私たちは、お客様の個人情報の取扱いをこれらの第三者に対して委託する場合には、適用法令
+を遵守し、当該第三者に対する適切な管理および監督をした上で行っています。
+<br></br>
+
+　また、法の執行のために、行政機関または司法機関等がお客様の個人情報へのアクセスまたは
+提供を私たちに要請する場合がありますが、当該要請が適正で正当な必要性のもとで行われて
+いる場合（特に、刑事捜査やその他の裁判手続き等においてなされる場合があります。）、私たち
+は、私たちの内部規程および適用法令に従って、この要請に対応します。その他、私たちは、「3-6. 不正行為等の防止および対応のため」等、生命、身体または財産の保護のために必要がある
+場合、その必要の限度において、お客様の個人情報を当グループおよび第三者に開示等する場合
+があります。
+私たちは、本方針に記載されている目的以外の目的でお客様の情報の利用または提供が発生
+する場合は、事前に当該利用または提供について必要な手続きを取るものとし、また、いかなる
+目的であっても、お客様の同意を得ることなく、第三者にお客様の個人情報を販売し、または貸
+与等することはありません。
+<br></br>
+
+**<u>5. お客様による選択</u>**
+
+　お客様による、私たちへの個人情報のご提供は、原則としてお客様の意思によって行われるも
+のです。なお、ご提供いただけない場合には、お客様は、会員サービスおよび対象サービス等の
+サービスまたは機能の一部が動作せず、当該サービスまたは機能のご利用が出来なくなり、また、
+私たちからキャンペーン等の情報をお届けできない等の不利益が発生する場合があります。
+
+　また、お客様は、お客様の連絡先およびメールマガジンの受信の意思等について、私たちが別
+途定める方法に従って、いつでも変更を行うことができます。
+<br></br>
+
+**<u>6. 個人情報の確認等</u>**
+
+　私たちは、私たちのシステム上で、お客様の個人情報が正確に維持されるように注意を払って
+います。お客様は、当社所定の方法により、自らの個人情報を容易に確認することができ、お客
+様において変更または削除することができます。もし、不正確または古い情報が残っている場合
+には、適切に更新してください。私たちが保有するお客様の個人情報の内容は、TechBiz 会員情
+報管理にて確認、変更、または削除していただくことができます。
+<br></br>
+
+**<u>7. セキュリティおよび国外への移転</u>**
+
+　私たちは、お客様の個人情報に対する不正アクセスまたは漏洩を防止し、個人情報の正確性を
+維持し、および必要な場合は適切な廃棄を行うために、適用法令を遵守するとともに、高い情報
+セキュリティ水準での個人情報の取扱いに努めています。私たちは、個人情報の取得時または移
+転時には、通信を暗号化し、また、保管する個人情報についてアクセス権の制限を設け、業務の
+遂行に必要な者のみに取扱わせています。
+<br></br>
+
+　また、お客様のアカウントの安全性の維持のためには、お客様によるパスワードの保護が大変
+重要です。他のサービスと同一のパスワードをご利用になることおよびパスワードを第三者に
+明かすことは、おやめください。お客様のパスワードを要求する内容のメールやその他の連絡は
+不正なものとみなし、当社にご連絡ください。
+<br></br>
+
+　お客様がアカウントアグリゲーション等のサービスを利用された場合を含み、どのような事
+由でも第三者にお客様のパスワードを開示した場合、当該第三者はお客様のアカウントおよび
+個人情報にアクセス可能な状態となります。この場合、お客様に損害が生じたとしても、私たち
+は、私たちの責に帰すべき事由がある場合を除き、責任を負わないものとします。もし第三者が
+お客様のアカウントにアクセスしていると疑われる場合、直ちにパスワード変更を行った上で、
+私たちにご連絡ください。
+<br></br>
+
+**<u>8. 本方針の変更</u>**
+
+　私たちは、本方針を、法令変更への対応の必要性および事業上の必要性等に応じて、随時、変
+更および改正する場合があり、当該変更等について、このウェブサイト上に掲載します。お客様
+は、このウェブサイト上に掲載される変更等の後の最新の本方針の内容を十分にご確認くださ
+い。
